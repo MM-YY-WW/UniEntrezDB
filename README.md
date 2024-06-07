@@ -6,10 +6,10 @@ This repository contains the official implementation for the paper "UnientrezDB:
 
 Below are several figures from the paper that illustrate key concepts and results:
 
-![Figure 1](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/evaluation_benchmark.png)
+![Figure 1](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/goa.png)
 *Figure 1: Description of what the figure represents.*
 
-![Figure 2](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/goa.png)
+![Figure 2](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/evaluation_benchmark.png)
 *Figure 2: Description of what the figure represents.*
 
 ![Figure 3](path/to/figure3.png)
