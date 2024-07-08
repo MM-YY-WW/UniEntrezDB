@@ -17,13 +17,11 @@ Below are several figures from the paper that illustrate key concepts and result
 
 ## Dataset Download
 
-You can download the datasets used in our study through the following links. Each dataset is crucial for various downstream tasks as described in our paper.
+You can download the datasets used in our study through the following links.
 
-- **Pretrained Dataset**: [Download Pretrained Dataset](https://example.com/pretrained-dataset)
-- **Downstream Task Dataset 1**: [Download Dataset 1](https://example.com/dataset1)
-- **Downstream Task Dataset 2**: [Download Dataset 2](https://example.com/dataset2)
-- **Downstream Task Dataset 3**: [Download Dataset 3](https://example.com/dataset3)
-- **Downstream Task Dataset 4**: [Download Dataset 4](https://example.com/dataset4)
+- **Pretrained Dataset**: [Download Pretrained Dataset](https://drive.google.com/file/d/1DsXufybeSgEXrx8szkF0kuhASmAVOaU-/view?usp=sharing)
+- **Downstream Task Datasets**: [Download Datasets](https://drive.google.com/file/d/1fSRXO26jr1XcFn7GKqRoN_CZUbuEY8Cj/view?usp=sharing)
+- **ID Mapping Dicts**: [Download ID Mapping dictionaries](https://drive.google.com/file/d/1La80B3hUibbe94FghkTIx80DRzPfwYix/view?usp=sharing)
 
 ## Embeddings Download
 
@@ -43,3 +41,27 @@ Before running the scripts, make sure to install all required packages:
 
 ```bash
 pip install -r requirements.txt
+
+```
+
+### Use Gene Embedding as Input 
+
+The format of gene embedding is .pt file (default dimension 1024) with the corresponding Gene Entrez ID in .csv format
+
+
+### Script
+
+To test embedding performance of the downstream tasks:
+
+```
+bash all_in_one.sh \
+-Co_Present True \
+-GGI True \
+-PPI True \
+-Cell_Type True \
+-Gene_Embedding_Path '' \
+-Gene_ID_Path '' \
+-Result_Folder_Path '' \
+```
+
+## 
