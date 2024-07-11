@@ -21,15 +21,13 @@ You can download the datasets used in our study through the following links.
 
 - **Pretrained Dataset**: [Download Pretrained Dataset](https://drive.google.com/file/d/1DsXufybeSgEXrx8szkF0kuhASmAVOaU-/view?usp=sharing)
 - **Downstream Task Datasets**: [Download Datasets](https://drive.google.com/file/d/1fSRXO26jr1XcFn7GKqRoN_CZUbuEY8Cj/view?usp=sharing)
-- **ID Mapping Dicts**: [Download ID Mapping dictionaries](https://drive.google.com/file/d/1La80B3hUibbe94FghkTIx80DRzPfwYix/view?usp=sharing)
+- **ID Mapping Dictionaries**: [Download ID Mapping dictionaries](https://drive.google.com/file/d/1La80B3hUibbe94FghkTIx80DRzPfwYix/view?usp=sharing)
 
 ## Embeddings Download
 
 To download the embeddings generated in this study, use the following links. Each link corresponds to embeddings tailored for different aspects of the study:
 
-- **Embedding 1**: [Download Embedding 1](https://example.com/embedding1)
-- **Embedding 2**: [Download Embedding 2](https://example.com/embedding2)
-- **Embedding 3**: [Download Embedding 3](https://example.com/embedding3)
+- **Embeddings(GOA, Gene2Vec, DNABert, OntoProtein)**: [Download Embeddings](https://drive.google.com/file/d/1OcAnUT6CJEDsQk2hPlPE2tpf-hL9nDA4/view?usp=sharing)
 
 ## Running Downstream Tasks
 
