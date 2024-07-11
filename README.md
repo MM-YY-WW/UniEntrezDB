@@ -2,18 +2,39 @@
 
 This repository contains the official implementation for the paper "UnientrezDB: Large-scale Gene Ontology Annotation Dataset and Evaluation Benchmarks with Unified Entrez Gene Identifiers." Our work focuses on providing a comprehensive dataset and benchmarks for evaluating gene ontology annotations using a unified system of Entrez Gene Identifiers.
 
-## Figures from the Paper
+## UniEntrez GOA:
 
-Below are several figures from the paper that illustrate key concepts and results:
+Pretrain dataset: Maps GO annotations of gene and gene products to Gene Entrez ID. 
+Contains the following 12 columns:
+
+- DB
+- DB Object ID
+- DB Object Symbol
+- GO ID
+- DB:Reference(|DB:Reference)
+- Evidence Code
+- Aspect
+- DB Object Type
+- Taxon(|taxon)
+- Date
+- Assigned By
+- EntrezID
 
 ![Figure 1](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/goa.png)
 *Figure 1: Description of what the figure represents.*
 
-![Figure 2](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/evaluation_benchmark.png)
-*Figure 2: Description of what the figure represents.*
 
-![Figure 3](path/to/figure3.png)
-*Figure 3: Description of what the figure represents.*
+## UniEntrez Evaluation Benchmarks
+
+Evaluation Benchmarks datasets:
+
+- Pathway Co-present Prediction (Gene-level)
+- Functional Gene Interaction Prediction (Gene-level)
+- Protein-Protein Interaction (Protein-level)
+- Single-Cell Type Annotation (Cell-level)
+
+![Figure 2](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/evaluation_benchmark.png)
+
 
 ## Dataset Download
 
@@ -25,7 +46,7 @@ You can download the datasets used in our study through the following links.
 
 ## Embeddings Download
 
-To download the embeddings generated in this study, use the following links. Each link corresponds to embeddings tailored for different aspects of the study:
+To download the embeddings generated in this study, use the following link.
 
 - **Embeddings(GOA, Gene2Vec, DNABert, OntoProtein)**: [Download Embeddings](https://drive.google.com/file/d/1OcAnUT6CJEDsQk2hPlPE2tpf-hL9nDA4/view?usp=sharing)
 
