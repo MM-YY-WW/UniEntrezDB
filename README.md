@@ -44,10 +44,13 @@ Evaluation Benchmarks datasets:
 
 **ID Mapping Dictionaries**: [Download ID Mapping dictionaries](https://drive.google.com/file/d/1La80B3hUibbe94FghkTIx80DRzPfwYix/view?usp=sharing)
 
-![Figure 3](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/evaluation_benchmark.png)
+![Figure 3](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/id_mapping_to_Database.png)
 
 ## Reproduce our work
 
+### Our Results
+
+![Figure 4](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/Results.png)
 
 ### Embeddings Download
 
@@ -88,4 +91,4 @@ bash all_in_one.sh \
 -Result_Folder_Path '' \
 ```
 
-## 
+
