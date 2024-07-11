@@ -5,6 +5,9 @@ This repository contains the official implementation for the paper "UnientrezDB:
 ## UniEntrez GOA:
 
 Pretrain dataset: Maps GO annotations of gene and gene products to Gene Entrez ID. 
+
+**Pretrained Dataset**: [Download Pretrained Dataset](https://drive.google.com/file/d/1DsXufybeSgEXrx8szkF0kuhASmAVOaU-/view?usp=sharing)
+
 Contains the following 12 columns:
 
 - DB
@@ -21,12 +24,13 @@ Contains the following 12 columns:
 - EntrezID
 
 ![Figure 1](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/goa.png)
-*Figure 1: Description of what the figure represents.*
 
 
 ## UniEntrez Evaluation Benchmarks
 
 Evaluation Benchmarks datasets:
+
+**Downstream Task Datasets**: [Download Datasets](https://drive.google.com/file/d/1fSRXO26jr1XcFn7GKqRoN_CZUbuEY8Cj/view?usp=sharing)
 
 - Pathway Co-present Prediction (Gene-level)
 - Functional Gene Interaction Prediction (Gene-level)
@@ -36,15 +40,16 @@ Evaluation Benchmarks datasets:
 ![Figure 2](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/evaluation_benchmark.png)
 
 
-## Dataset Download
+## ID Mapping Between Public Biological Databases
 
-You can download the datasets used in our study through the following links.
+**ID Mapping Dictionaries**: [Download ID Mapping dictionaries](https://drive.google.com/file/d/1La80B3hUibbe94FghkTIx80DRzPfwYix/view?usp=sharing)
 
-- **Pretrained Dataset**: [Download Pretrained Dataset](https://drive.google.com/file/d/1DsXufybeSgEXrx8szkF0kuhASmAVOaU-/view?usp=sharing)
-- **Downstream Task Datasets**: [Download Datasets](https://drive.google.com/file/d/1fSRXO26jr1XcFn7GKqRoN_CZUbuEY8Cj/view?usp=sharing)
-- **ID Mapping Dictionaries**: [Download ID Mapping dictionaries](https://drive.google.com/file/d/1La80B3hUibbe94FghkTIx80DRzPfwYix/view?usp=sharing)
+![Figure 3](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/evaluation_benchmark.png)
 
-## Embeddings Download
+## Reproduce our work
+
+
+### Embeddings Download
 
 To download the embeddings generated in this study, use the following link.
 
