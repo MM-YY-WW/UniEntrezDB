@@ -54,7 +54,7 @@ Evaluation Benchmarks datasets:
 
 To download the embeddings generated in this study, use the following link.
 
-- **Embeddings(GOA, Gene2Vec, DNABert, OntoProtein)**: [Download Embeddings](https://drive.google.com/file/d/1OcAnUT6CJEDsQk2hPlPE2tpf-hL9nDA4/view?usp=sharing)
+- **Embeddings(GOA, Gene2Vec, DNABert, OntoProtein)**: [Download Embeddings](https://drive.google.com/file/d/1xAVhiQtGgyTgqmmI2FOO4VpVYRlbgK30/view?usp=sharing)
 
 To run the downstream tasks, follow the steps at [overall_results.ipynb](overeall_results.ipynb)
 
