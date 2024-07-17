@@ -85,22 +85,3 @@ for current_fold in {0..4}; do
   --concat_emb=$concat_emb 
 
 done
-
-# Additional test commands outside the loop
-for current_fold in {0..4}; do
-# for current_fold in {0..0}; do
-  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=2 --master_port=$master_port ddp_copresent_test.py \
-  --classifier_ckpt_path="ckpts/${model_name}_${current_fold}_best.pth" \
-  --epoch=1 \
-  --seed=$seed \
-  --learning_rate=$learning_rate \
-  --batch_size=$batch_size \
-  --dataset=$dataset \
-  --num_folds=$num_folds \
-  --gene_entrezID_path=$gene_entrezID_path \
-  --gene_emb_path=$gene_emb_path \
-  --model_name="${model_name}_test" \
-  --current_fold=$current_fold \
-  --concat_emb=$concat_emb 
-
-done
