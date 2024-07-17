@@ -55,7 +55,7 @@ fi
 # Training and testing loop
 for current_fold in {0..4}; do
   # Training command
-  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7,8 python -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=8 --master_port=$master_port ddp_copresent.py \
+  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=2 --master_port=$master_port ddp_copresent.py \
   --epoch=$epoch \
   --seed=$seed \
   --learning_rate=$learning_rate \
@@ -70,7 +70,7 @@ for current_fold in {0..4}; do
   --concat_emb=$concat_emb
 
   # Testing command
-  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7,8 python -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=8 --master_port=$master_port ddp_copresent_test.py \
+  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=2 --master_port=$master_port ddp_copresent_test.py \
   --classifier_ckpt_path="ckpts/${model_name}_${current_fold}_best.pth" \
   --epoch=1 \
   --seed=$seed \
@@ -89,7 +89,7 @@ done
 # Additional test commands outside the loop
 for current_fold in {0..4}; do
 # for current_fold in {0..0}; do
-  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7,9 python -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=8 --master_port=$master_port ddp_copresent_test.py \
+  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nnodes=1 --node_rank=0 --nproc_per_node=2 --master_port=$master_port ddp_copresent_test.py \
   --classifier_ckpt_path="ckpts/${model_name}_${current_fold}_best.pth" \
   --epoch=1 \
   --seed=$seed \
