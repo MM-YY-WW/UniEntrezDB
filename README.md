@@ -46,11 +46,10 @@ Evaluation Benchmarks datasets:
 
 ![Figure 3](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/id_mapping_to_Database.png)
 
+
 ## Reproduce our work
+To run the downstream tasks, follow the steps at [overall_results.ipynb](overeall_results.ipynb)
 
-### Our Results
-
-![Figure 4](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/Results.png)
 
 ### Embeddings Download
 
@@ -58,20 +57,15 @@ To download the embeddings generated in this study, use the following link.
 
 - **Embeddings(GOA, Gene2Vec, DNABert, OntoProtein)**: [Download Embeddings](https://drive.google.com/file/d/1OcAnUT6CJEDsQk2hPlPE2tpf-hL9nDA4/view?usp=sharing)
 
-### Running Downstream Tasks
+### Our Results
 
-To run the downstream tasks, follow the steps at [overall_results.ipynb]()
+![Figure 4](https://github.com/MM-YY-WW/UniEntrezDB/blob/main/Figures/Results.png)
 
-### Requirements
 
-Before running the scripts, make sure to install all required packages:
 
-```bash
-pip install -r requirements.txt
 
-```
 
-### Script
+
 
 
 
