@@ -20,9 +20,6 @@ import time
 #         print(e)
 # pd.Series(refseq).to_csv("Benchmark_Evaluation/data/Single_Cell_Type_Annotation/Zheng68k/refseq_id.csv", sep='\t', header=False, index=False)
 # a=1
-# Entrez.api_key = "9876c755e7d56d672c5b2ff013ea929a1108" #zheng68k
-# Entrez.api_key ="009e62f966e0672614e96867d694f488e108" #GGI
-Entrez.api_key ="5d7381e537080a511422cd9079f63bafcc08" #msigdb
 
 def fetch_sequences(refseq_id):
 
