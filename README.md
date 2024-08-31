@@ -2,7 +2,7 @@
 
 This repository contains the official implementation for the paper "UnientrezDB: Large-scale Gene Ontology Annotation Dataset and Evaluation Benchmarks with Unified Entrez Gene Identifiers." Our work focuses on providing a comprehensive dataset and benchmarks for evaluating gene ontology annotations using a unified system of Entrez Gene Identifiers.
 
-## Overall Average Results on OBNB
+## Overall Average Results
 
 #### [DISEASES](https://diseases.jensenlab.org/About)
 
@@ -13,7 +13,7 @@ This repository contains the official implementation for the paper "UnientrezDB:
 | OntoProtein | 4.08 $\pm$ 3.49 | 11.95 $\pm$ 3.67 | 52.24 $\pm$ 1.00 |
 | GOA_Emb | 5.32 $\pm$ 4.10 | 48.97 $\pm$ 11.39 | 51.97 $\pm$ 0.94 |
 | GOA_Emb + Gene2Vec | 6.83 $\pm$ 3.46 | 81.72 $\pm$ 23.00 | 54.75 $\pm$ 1.29 |
-| GOA_Emb + DNABert-2 | 5.10 $\pm$ 3.98 | 44.72 $\pm$ 9.93 | 52.11 $\pm$ 0.82 |
+| GOA_Emb + DNABert-2 | 4.16 $\pm$ 3.47 | 14.96 $\pm$ 11.94 | 52.20$\pm$ 0.98 |
 
 
 #### [DisGeNET](https://www.disgenet.org/)
@@ -25,7 +25,7 @@ This repository contains the official implementation for the paper "UnientrezDB:
 | OntoProtein | 2.01 $\pm$ 1.44 | 9.905 $\pm$ 1.61 | 51.86 $\pm$ 0.73 |
 | GOA_Emb | 2.57 $\pm$ 1.65 | 40.81 $\pm$ 6.46 | 52.06 $\pm$ 0.78 |
 | GOA_Emb + Gene2Vec | 3.12 $\pm$ 1.55 | 59.72 $\pm$ 10.59 | 53.41 $\pm$ 0.79 |
-| GOA_Emb + DNABert-2 | 3.33 $\pm$ 1.53 | 64.01 $\pm$ 13.46 | 53.54 $\pm$ 1.21 |
+| GOA_Emb + DNABert-2 | 2.01 $\pm$ 1.44 | 9.91 $\pm$ 1.60 | 51.86 $\pm$ 0.73 |
 
 
 ### DNABert-2:
@@ -242,39 +242,39 @@ This repository contains the official implementation for the paper "UnientrezDB:
 
 | Network | AP\% | APOP\% | AUCROC\% | 
 | :------ | ---------: | -------------: | -------------: | 
-| BioGRID | 3.18|35.43|51.19 |
-| BioPlex |6.57|52.60|51.25 |
-| ComPPIHumanInt | 3.31|43.74|52.34|
-| ConsensusPathDB |3.49|54.73|53.39 |
-| FunCoup | 3.11|34.97|51.50 |
-| HIPPIE | 3.21|40.71|52.23 |
+| BioGRID | 2.63|12.15|52.46 |
+| BioPlex |4.94|14.12|52.49 |
+| ComPPIHumanInt | 2.65|13.93|52.93|
+| ConsensusPathDB |2.62|13.75|52.81 |
+| FunCoup | 2.58|13.5|52.75 |
+| HIPPIE | 2.67|12.97|52.72 |
 | HumanNet | 3.66|55.98|52.26 |
-| HuMAP | 4.17|54.49|52.31 |
-| HuRI | 6.27|34.61|51.47 |
-| OmniPath | 3.58|49.02|52.41 |
-| PCNet | 3.28|43.08|52.05 |
-| ProteomeHD | 18.91|23.85|51.48 |
+| HuMAP | 3.05|12.15|52.32 |
+| HuRI | 5.11|7.08|51.15 |
+| OmniPath | 2.76|11.37|52.29 |
+| PCNet |2.6|11.64|52.29 |
+| ProteomeHD | 16.29|1.01|49.0 |
 | SIGNOR | 5.08 | 42.76 | 51.46 |
-| STRING | 3.59|60.06|54.20 |
+| STRING | 2.61|12.87|52.68 |
 
 #### [DisGeNET](https://www.disgenet.org/)
 
 | Network | AP\% | APOP\% | AUCROC\% | 
 | :------ | ---------: | -------------: | -------------: | 
-| BioGRID | 2.64|67.97|53.70 |
-| BioPlex | 3.39|46.30|53.79 |
-| ComPPIHumanInt | 2.88|73.77|54.30 |
-| ConsensusPathDB | 2.63|65.54|53.80 |
-| FunCoup | 2.77|69.70|54.15 |
-| HIPPIE | 2.82|80.19|54.27 |
-| HumanNet |2.80|78.67|53.86 |
-| HuMAP | 2.77|65.57|53.72 |
-| HuRI | 3.41|51.86|51.80 |
-| OmniPath |3.06|78.76|54.68 |
-| PCNet |2.48|64.11|53.29 |
-| ProteomeHD | 8.74|32.09|49.88 |
-| SIGNOR | 3.42 | 50.97 | 54.20 |
-| STRING | 2.76|70.70|54.17 |
+| BioGRID | 1.37|10.59|52.19 |
+| BioPlex |2.46|10.26|52.72 |
+| ComPPIHumanInt | 1.45|10.72|52.36 |
+| ConsensusPathDB | 1.36|7.29|51.39 |
+| FunCoup | 1.45|11.95|52.36 |
+| HIPPIE | 1.37|10.96|52.31 |
+| HumanNet |1.36|12.09|52.27 |
+| HuMAP | 1.52|10.13|51.81 |
+| HuRI | 2.23|7.81|51.02 |
+| OmniPath |1.43|11.05|51.84 |
+| PCNet |1.35|8.69|51.72 |
+| ProteomeHD | 7.01|6.83|49.73 |
+| SIGNOR | 2.44|9.36|52.08 |
+| STRING | 1.37|10.95|52.26 |
 
 ## UniEntrez GOA:
 
