@@ -2,7 +2,7 @@
 
 This repository contains the official implementation for the paper "UnientrezDB: Large-scale Gene Ontology Annotation Dataset and Evaluation Benchmarks with Unified Entrez Gene Identifiers." Our work focuses on providing a comprehensive dataset and benchmarks for evaluating gene ontology annotations using a unified system of Entrez Gene Identifiers.
 
-## Overall Average Results
+## Overall Average Results on OBNB
 
 #### [DISEASES](https://diseases.jensenlab.org/About)
 
